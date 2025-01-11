@@ -18,7 +18,7 @@
   color: rgb(255, 255, 255);
 }
 
-/* Nav style */
+/* .......Nav style......... */
 .nav-btn-right {
   padding: 15px 30px 15px 30px;
   border: 1px solid #f30200;
@@ -52,10 +52,22 @@ header {
   max-width: 1380px;
   margin: 0 auto;
   padding: 25px 0;
-  /* text-align: center; */
+  
+}
+/*...... Main section ......*/
+main {
+  max-width: 1380px;
+  margin: 0 auto;
 }
 
-/* Banner Section */
+/* .......Banner Section ..........*/
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(228, 204, 198);
+}
 
 .banner-text > p{
 color: rgba(14, 14, 14, 0.5);
@@ -68,4 +80,5 @@ font-weight: 500;
   padding: 20px 0;
   font-size: 56px;
   font-weight: 700;
+  text-transform: ;
 }
