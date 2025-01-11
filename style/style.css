@@ -5,6 +5,9 @@
   padding: 0;
   font-family: Fira Sans;
 }
+body {
+  background-color: #f5f5f5;
+}
 
 /*......... Shared Styles......... */
 
@@ -16,6 +19,7 @@
   font-size: 18px;
   font-weight: 600;
   color: rgb(255, 255, 255);
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 .btn-primary:hover {
   background-color: #fff;
@@ -29,12 +33,6 @@
   font-size: 40px;
   font-weight: 700;
 }
-.section-description {
-  color: rgba(14, 14, 14, 0.7);
-
-  font-size: 16px;
-  font-weight: 400;
-}
 
 /* .......Nav style......... */
 .nav-btn-right {
@@ -45,6 +43,7 @@
   color: #f30200;
   font-size: 18px;
   font-weight: 600;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 .nav-btn-right:hover {
   background-color: #f30200;
@@ -107,16 +106,24 @@ main {
 }
 
 /*............ The Vision of Future....... */
-.the-vision-of-future p {
-  padding: 20px 0;
+.the-vision-of-future {
+  padding: 50px 0;
+}
+.the-vision-of-future > p {
+  padding: 30px 0;
 }
 .vision-cards {
   display: flex;
   gap: 24px;
 }
 .card {
+  width: 410.67px;
+  height: 250px;
   padding: 32px;
-  border-radius: 32px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .card-one {
   background-color: #cae2c7;
@@ -125,7 +132,7 @@ main {
   background-color: #e2c7c7;
 }
 .card-three {
-  background-color: #c7d3e2;
+  background-color: #e1e2c7;
 }
 .card-title {
   color: rgba(14, 14, 14, 0.8);
@@ -144,4 +151,52 @@ main {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
+  bottom: 0;
 }
+.card-one-btn-bg {
+  background-color: #7be26d;
+}
+.card-one-btn-bg:hover {
+  background-color: #1deb02;
+}
+.card-two-btn-bg {
+  background-color: #e67878;
+}
+.card-two-btn-bg:hover {
+  background-color: #f30200;
+}
+.card-three-btn-bg {
+  background-color: #e3e774;
+}
+.card-three-btn-bg:hover {
+  background-color: #e0e706;
+}
+
+/* .........Qoute section....... */
+
+.yunus-section {
+  background-color: #ffffff;
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
+  padding: 30px 24px 30px 24px;
+  position: relative;
+}
+
+.yunus-content img {
+  /* background-image: url("/assets/quote-bg.png") ;
+  background-repeat: no-repeat;
+  background-position: top left; */
+  /* margin-bottom: -40px; */
+  position: absolute;
+}
+.yunus-content-description {
+  padding: 28px 0;
+  color: #0e0e0ecc;
+  font-size: 16px;
+}
+.yunus-content h5 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+
