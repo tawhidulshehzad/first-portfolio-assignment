@@ -37,6 +37,7 @@ body {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 16px;
+  line-height: 24px;
 }
 
 /* .......Nav style......... */
@@ -199,6 +200,7 @@ main {
   padding: 28px 0;
   color: #0e0e0ecc;
   font-size: 16px;
+  line-height: 24px;
 }
 .yunus-content h5 {
   color: rgba(14, 14, 14, 0.8);
@@ -212,8 +214,6 @@ main {
 
 .latest-news-section {
   padding: 15px 0 0 0;
-  
-  
 }
 .latest-news-section h2 {
   padding-bottom: 20px;
@@ -225,11 +225,11 @@ main {
   padding: 48px;
   gap: 30px;
   margin-top: 30px;
-  
 }
 .news-content-img > img {
   border-radius: 24px;
   height: 306px;
+  width: 408px;
 }
 .news-details {
   display: flex;
@@ -238,9 +238,47 @@ main {
 }
 .news-title {
   color: rgba(14, 14, 14, 0.8);
-font-size: 32px;
-font-weight: 700;
+  font-size: 32px;
+  font-weight: 700;
 }
-.new-description {
+/* Donate section */
+.donate-titl-and-description {
+  text-align: center;
+  margin-top: 40px;
+}
+.donate-titl-and-description h2 {
+  padding: 20px 0;
+}
+.donate-amount {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-box {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 40px;
+  color: #0e0e0ecc;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 24px;
+}
+.donate {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
 
+.donate input {
+  padding: 20px 400px;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.donate input::placeholder {
+  color: #0e0e0e4d;
+  font-size: 20px;
 }
