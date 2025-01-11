@@ -29,9 +29,14 @@ body {
 
 .section-title {
   color: rgb(14, 14, 14);
-
   font-size: 40px;
   font-weight: 700;
+}
+
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
 }
 
 /* .......Nav style......... */
@@ -200,3 +205,24 @@ main {
   font-weight: 600;
 }
 
+/* ...
+...latest-news-section....
+... */
+
+.latest-news-section {
+  padding: 45px 0;
+}
+.latest-news-section h2 {
+  padding-bottom: 20px;
+}
+.news-content {
+  display: flex;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 48px;
+  gap: 30px;
+  margin-top: 30px;
+}
+.news-content-img > img {
+  border-radius: 24px;
+}
