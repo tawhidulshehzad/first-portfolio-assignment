@@ -328,3 +328,11 @@ main {
 .newsletter-button:hover {
   background-color: #910404;
 }
+
+.input-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+/* practice option  */
+
