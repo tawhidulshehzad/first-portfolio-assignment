@@ -334,5 +334,53 @@ main {
   justify-content: center;
 }
 
-/* practice option  */
+/* practice Drom down  */
 
+.questionnaire-container {
+  
+  margin: 20px auto 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Styles for each question row */
+.question-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.question-row:last-child {
+  border-bottom: none;
+  
+}
+
+/* Styles for the question text */
+.question {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styles for the dropdown */
+.dropdown-container {
+  margin-left: 20px;
+}
+
+.opinion-dropdown {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.opinion-dropdown:focus {
+  border-color: #007bff;
+}
